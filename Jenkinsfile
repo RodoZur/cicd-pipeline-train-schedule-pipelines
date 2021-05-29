@@ -29,7 +29,7 @@ pipeline {
                                         sourceFiles: 'dist/trainSchedule.zip',
                                         removePrefix: 'dist/',
                                         remoteDirectory: '/tmp',
-                                        execCommand: 'sudo touch staging_test_from_jenkins'
+                                        execCommand: 'touch staging_test_from_jenkins'
                                     )
                                 ]
                             )
@@ -61,7 +61,7 @@ pipeline {
                                         sourceFiles: 'dist/trainSchedule.zip',
                                         removePrefix: 'dist/',
                                         remoteDirectory: '/tmp',
-                                        execCommand: 'sudo touch production_test_from_jenkins'
+                                        execCommand: 'touch production_test_from_jenkins'
                                     )
                                 ]
                             )
